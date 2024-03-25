@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <script src="js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Checkout</title>
+</head>
+<body>
+
+        <!--Navbar Section-->
+        <div class="navigation mb-5" id="checkout">
+            <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #011638;" data-bs-theme="dark">
+                <!-- Navbar content -->
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                      <img src = "image/logo.jpg" alt="logo" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">MyRealEstate254</a>
+                    <!-- <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+                </div>
+            </nav>
+        </div>
+
+    <div class="houses-container container mt-5">
+        <div class="row box">
+            <div class="col">
+                <img src = "image/house2.jpg" class="rounded-2" width=90% height=auto alt="image/shopping1.jpg" id="houseImage" />
+            </div>
+
+            <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Checkout</h2>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title" id="houseTitle">House Title</h5>
+                    <p class="card-text" id="houseDescription">House Description</p>
+                    <p class="card-text">
+                        <strong>Price: </strong> <span id="housePrice">House Price</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="total">
+                <strong>Total: </strong> <span id="housePrice">$$$</span>
+            </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./checkout.js"></script>
+</body>
+</html>

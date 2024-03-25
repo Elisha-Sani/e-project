@@ -1,10 +1,28 @@
+a {
+    font-family: serif;
+}
+
+.navbar-toggler-icon{
+    font-size: 15px;
+}
+
+#navbarNav a.nav-link{
+    text-decoration: none;
+    transition: all 0.9s ease-in;
+}
+
+#navbarNav a.nav-link:hover{
+    text-decoration: underline;
+}
+
+
 .navigation {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 #home .carousel-item img{
     max-width: 100%;
-    min-height: 300px;
+    min-height: 200px;
     opacity: 0.7;
     overflow: hidden;
 }
@@ -16,4 +34,14 @@
 .card img{
     width: 100%;
     height: 200px;
+}
+
+.houses-container .box{
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.houses-container .box .total #housePrice{
+    text-align: right;
 }
